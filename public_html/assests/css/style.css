@@ -17,5 +17,34 @@ header{
     align-items: center;
 }
 .menu{
-    
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav li{
+    list-style: none; /*retira o aobrinhado*/   
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    display: blok;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: arial;
+}
+nav .active a,
+nav a:hover{
+    background-color: deepskyblue;
+    color: white;
+}
+#banner{
+    background-image: url('../images/img1.jpg');
+    background-position: center;
+    background-size: cover; /*adapta a diferentes monitores*/ 
+    height: 670px;
 }
