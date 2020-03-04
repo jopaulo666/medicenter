@@ -208,6 +208,11 @@ footer{
 .fm_3{
     background-color: #2b4c99;
 }
+.footer_menu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
 .footer_area{
     display: flex;
 }
